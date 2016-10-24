@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InputCheckDemo</string>
+
+    <string name="hello_empty">内容不能为空</string>
+    <string name="dont_match">内容不匹配</string>
+    <string name="dont_equal">两次输入不相同</string>
+</resources>
