@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
 
-version = "1.0.1"
+version = "1.0.2"
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -11,7 +11,7 @@ dependencies {
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
 
-group = "com.yzd.inputcheck.annotation"
+group = "com.yzd"
 def siteUrl = 'https://github.com/yanzhaodi/InputCheck' // 项目的主页
 def gitUrl = 'https://github.com/yanzhaodi/InputCheck.git' // Git仓库的url
 install {

@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
 
-version = "1.0.2"
+version = "1.0.3"
 
 android {
     compileSdkVersion 22
@@ -28,10 +28,10 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.yzd.inputcheck.annotation:inputcheck-annotation:1.0.1'
+    compile 'com.yzd:inputcheck-annotation:1.0.2'
 }
 
-group = "com.yzd.inputcheck"
+group = "com.yzd"
 def siteUrl = 'https://github.com/yanzhaodi/InputCheck' // 项目的主页
 def gitUrl = 'https://github.com/yanzhaodi/InputCheck.git' // Git仓库的url
 install {
